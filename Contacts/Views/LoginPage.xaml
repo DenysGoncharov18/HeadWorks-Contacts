@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Contacts.Views.LoginPage">
+    <ContentPage.Content>
+        <Grid ColumnDefinitions = "0.1*,*,0.1*">
+            <StackLayout Grid.Column="1"
+                         HorizontalOptions="Center"
+                         VerticalOptions="Center">
+                <Label Text="Welcome! LogIn Please" 
+                       VerticalOptions="Center"
+                       HorizontalOptions="Center"
+                       FontSize="Large"/>
+                 <Entry x:Name="LoginEntry" Placeholder="Login" PlaceholderColor="DarkGray"/>
+                <Entry x:Name="PaswordEntry" Placeholder="Password" PlaceholderColor="DarkGray"/>
+                <Button x:Name ="LoginButton" Text="LogIn"/>
+                
+
+            </StackLayout>
+
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
